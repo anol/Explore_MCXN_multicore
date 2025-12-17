@@ -26,6 +26,8 @@ if (DEFINED GNU_VERSION)
         message(FATAL_ERROR " <> Sorry, the GNU_TOOL_HOME='${GNU_TOOL_HOME}' is not installed <> ")
     endif ()
 
+    set(SREC_CAT "C:/Program Files/srecord/bin/srec_cat.exe")
+
 else ()
     message(FATAL_ERROR " <> GNU_VERSION is not defined <> ")
 endif ()
