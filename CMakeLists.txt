@@ -13,5 +13,4 @@ set(CMAKE_CXX_STANDARD 20)
 
 set(MY_BINARY_DIR "${CMAKE_SOURCE_DIR}/bin")
 
-add_subdirectory("src/Variant/Target/Explore_MCXN_multicore/core0")
-add_subdirectory("src/Variant/Target/Explore_MCXN_multicore/core1")
+add_subdirectory("src/Variant/Target/Explore_MCXN_multicore")

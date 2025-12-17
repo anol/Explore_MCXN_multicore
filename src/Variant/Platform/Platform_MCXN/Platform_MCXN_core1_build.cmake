@@ -2,11 +2,12 @@ message(STATUS "Target name: '${TARGET_CORE1}'")
 
 #configure_file(${TARGET_CORE1}_config.h.in ${PROJECT_BINARY_DIR}/Target_config.h)
 
-#add_custom_command(TARGET ${TARGET_CORE1} POST_BUILD
-#        COMMAND ${CMAKE_COMMAND} -E copy
-#        ${CMAKE_CURRENT_BINARY_DIR}/${TARGET_CORE1}
-#        ${MY_BINARY_DIR}/${TITLE}_${PROJECT_VERSION_MAJOR}_${PROJECT_VERSION_MINOR}.elf
-#)
+
+add_custom_command(TARGET ${TARGET_CORE1} POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy
+        ${CMAKE_CURRENT_BINARY_DIR}/${TARGET_CORE1}
+        ${MY_BINARY_DIR}/${TARGET_CORE1}
+)
 
 target_include_directories(${TARGET_CORE1} PUBLIC
         ${SOURCE_ROOT_DIR}/device/core1
