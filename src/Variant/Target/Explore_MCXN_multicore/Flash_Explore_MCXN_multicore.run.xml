@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Flash_Explore_MCXN_multicore" type="com.jetbrains.cidr.embedded.customgdbserver.type" factoryName="com.jetbrains.cidr.embedded.customgdbserver.factory" PROGRAM_PARAMS="flash --probe V0GM5N24E3FAT MCXN947: load C:\Users\aeols\CLionProjects\Explore_MCXN_multicore\bin\Explore_MCXN_multicore.hex" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Explore_MCXN_multicore" TARGET_NAME="Explore_MCXN_multicore.hex" CONFIG_NAME="Debug-GNU ARM Embedded" version="1" RUN_PATH="$PROJECT_DIR$/bin/Explore_MCXN_multicore.hex">
+    <custom-gdb-server version="1" gdb-connect="localhost:3333" executable="C:\nxp\LinkServer_25.6.131\LinkServer.exe" warmup-ms="0" download-type="UPDATED_ONLY" reset-cmd="monitor reset" reset-type="AFTER_DOWNLOAD">
+      <debugger kind="GDB" isBundled="true" />
+    </custom-gdb-server>
+    <method v="2">
+      <option name="CLION.COMPOUND.BUILD" enabled="true" />
+    </method>
+  </configuration>
+</component>

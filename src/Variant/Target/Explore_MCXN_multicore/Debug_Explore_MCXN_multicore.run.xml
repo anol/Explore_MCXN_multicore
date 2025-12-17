@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Debug_Skinnekost_MCXA" type="com.jetbrains.cidr.embedded.customgdbserver.type" factoryName="com.jetbrains.cidr.embedded.customgdbserver.factory" PROGRAM_PARAMS="gdbserver --probe V0GM5N24E3FAT MCXA155:" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Skinnekost_WIN32" TARGET_NAME="Skinnekost_MCXA" CONFIG_NAME="Skinnekost_MCXA" version="1" RUN_TARGET_PROJECT_NAME="Skinnekost_WIN32" RUN_TARGET_NAME="Skinnekost_MCXA">
+    <custom-gdb-server version="1" gdb-connect="localhost:3333" executable="C:\nxp\LinkServer_25.6.131\LinkServer.exe" warmup-ms="500" download-type="UPDATED_ONLY" reset-cmd="monitor reset" reset-type="BOTH_TIMES">
+      <debugger kind="GDB" isBundled="true" />
+    </custom-gdb-server>
+    <method v="2" />
+  </configuration>
+</component>
